@@ -1,0 +1,12 @@
+[package]
+name = "tiberius-transaction-loop"
+version = "0.1.0"
+authors = ["Benjamin Weber <mail@bwe.im>"]
+edition = "2018"
+
+[dependencies]
+tiberius = {version = "0.3.2", features = ["chrono"]}
+tokio = "0.1.*"
+futures = "0.1.*"
+futures-state-stream = "0.1.*"
+itertools = "*"
